@@ -11,7 +11,9 @@
 /* Inter (вариативный шрифт) */
 @font-face {
   font-family: "InterVariable";
-  src: url("Inter-Variable.woff2") format("woff2-variations");
+  src: 
+    url("Inter-Regular.woff") format("woff2 supports variations"),
+    url("Inter-Variable.woff2") format("woff2-variations");
   font-style: normal;
   font-weight: 400 785;
   font-display: swap;
