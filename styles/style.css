@@ -11,7 +11,7 @@
 */
 
 .page {
-  font-family: var(--main-font);
+  font-family: var(--main-font), sans-serif;
   font-variation-settings: "wght" var(--text-weight);
   background-image: var(--base-pattern);
   background-size: cover;
@@ -29,7 +29,7 @@
 /* HEADER START */
 
 .header {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,7 +44,7 @@
 }
 
 .header__logo {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   font-weight: var(--text-weight);
   font-size: clamp(3.063rem, 2.71rem + 1.5vw, 4.063rem);
   line-height: 100%;
@@ -55,7 +55,7 @@
 }
 
 .header__title {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   font-weight: var(--text-weight);
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   text-align: center;
@@ -74,7 +74,7 @@ main {
 }
 
 .card__title {
-  font-family: var(--main-font);
+  font-family: var(--main-font), sans-serif;
   font-size: 18px;
   font-variation-settings: "wght" var(--title-weight);
   line-height: 100%;
@@ -133,7 +133,7 @@ main {
 .card__watermark {
   display: inline-block;
   position: absolute;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   font-size: 14px;
   font-weight: var(--text-weight);
   color: var(--accent-color);
@@ -173,7 +173,7 @@ main {
 .card__text {
   display: flex;
   flex-direction: column;
-  font-family: var(--main-font);
+  font-family: var(--main-font), sans-serif;
   font-size: 18px;
   font-variation-settings: "wght" var(--text-weight);
   line-height: 21px;
@@ -279,7 +279,7 @@ main {
   position: relative;
   justify-content: center;
   align-items: center;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   font-size: 14px;
   line-height: 90%;
   background-color: transparent;
@@ -394,7 +394,7 @@ dialog.memory {
 }
 
 .memory__text {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   font-size: 14px;
   font-weight: var(--text-weight);
   line-height: 150%;
@@ -428,11 +428,12 @@ dialog.memory {
   }
 
   .main {
-    gap: 48px;
+    gap: 47.8px;
   }
 
   .card__title {
-    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 2px;
   }
 
   .card__description {
@@ -468,7 +469,7 @@ dialog.memory {
 
   dialog.memory {
     width: 100%;
-    padding: 0px;
+    padding-left: 10px;
     max-inline-size: 342px;
   }
 }
