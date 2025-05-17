@@ -12,7 +12,7 @@
 
 .page {
   font-family: var(--main-font);
-  font-variation-settings: "weight" var(--text-weight);
+  font-variation-settings: "wght" var(--text-weight);
   background-image: var(--base-pattern);
   background-size: cover;
   background-attachment: fixed;
@@ -76,7 +76,7 @@ main {
 .card__title {
   font-family: var(--main-font);
   font-size: 18px;
-  font-variation-settings: "weight" var(--title-weight);
+  font-variation-settings: "wght" var(--title-weight);
   line-height: 100%;
   color: #000;
   background-color: #fff;
@@ -175,7 +175,7 @@ main {
   flex-direction: column;
   font-family: var(--main-font);
   font-size: 18px;
-  font-variation-settings: "weight" var(--text-weight);
+  font-variation-settings: "wght" var(--text-weight);
   line-height: 21px;
   gap: 25px;
 }
